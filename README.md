@@ -5,6 +5,21 @@
 
 `agent-context-clinic` reads a session transcript and tells you **how close you are to losing the conversation** — window saturation, safest compressible span, prefix-cache hint, and a human-readable report. Part of the **Verifiable-agent family**.
 
+> ⚠️ **Research prototype — AI-assisted development.** This is an open-source
+> research/experimental prototype produced with AI assistance. It is provided
+> **AS IS**, without warranty of any kind, and is not a commercial or
+> production-grade product. Use at your own risk.
+
+## Verifiable-agent family
+
+| Repo | Role |
+|:--|:--|
+| **agent-context-clinic** | context-window **health check** (this repo) |
+| [agent-call-audit](https://gitcode.com/gcw_MKhSyoGN/agent-call-audit) | audit **engine** |
+| [agent-memory-ledger](https://gitcode.com/gcw_MKhSyoGN/agent-memory-ledger) | verifiable **memory** layer |
+| [agent-audit-gateway](https://gitcode.com/gcw_MKhSyoGN/agent-audit-gateway) | HTTP **gateway** |
+| [agent-route-grid](https://gitcode.com/gcw_MKhSyoGN/agent-route-grid) | audited multi-agent **routing** |
+
 ## Why
 
 You have been running Claude Code / Codex / Cursor / a custom agent on a long task for days. Your session transcript is gigabytes of "stuff". The context window is finite. The question nobody answers until it is too late is: **when will the window blow up?** This tool gives you the answer in one command.

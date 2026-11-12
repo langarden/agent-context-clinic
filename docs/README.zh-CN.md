@@ -5,6 +5,19 @@
 
 `agent-context-clinic` 读取一段会话转录，告诉你**离上下文丢失还有多远**——窗口占用、最安全的可压缩区间、前缀缓存提示、以及可读的体检报告。它是 **Verifiable-agent 家族**成员。
 
+> ⚠️ **研究原型 — AI 辅助开发。** 这是一个开源研究/实验原型，由 AI 辅助产出。
+> 按 **AS IS** 提供，不含任何形式的担保，非商业或生产级产品。使用者自担风险。
+
+## 产品家族（Verifiable-agent 家族）
+
+| 仓库 | 角色 |
+|:--|:--|
+| **agent-context-clinic** | 上下文窗口**健康体检**（本仓库） |
+| [agent-call-audit](https://gitcode.com/gcw_MKhSyoGN/agent-call-audit) | 审计**引擎** |
+| [agent-memory-ledger](https://gitcode.com/gcw_MKhSyoGN/agent-memory-ledger) | 可验证**记忆层** |
+| [agent-audit-gateway](https://gitcode.com/gcw_MKhSyoGN/agent-audit-gateway) | HTTP **网关** |
+| [agent-route-grid](https://gitcode.com/gcw_MKhSyoGN/agent-route-grid) | 可审计多 Agent **路由** |
+
 ## 为什么需要它
 
 你已经在 Claude Code / Codex / Cursor / 自建 Agent 上跑了几天的长任务。会话转录已经堆了好几 GB。上下文窗口是有限的。没有人会在为时已晚之前回答的问题是：**窗口什么时候会爆？** 这个工具一条命令给你答案。
