@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-context-clinic"
+version = "0.1.0"
+description = "AI session context health check CLI. How close is your agent session to memory loss? Zero-dependency."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "maintainers" }]
+keywords = ["context", "context-window", "agent", "clinic", "health", "llm"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development",
+]
+dependencies = []
+
+[project.scripts]
+agent-context-clinic = "agent_context_clinic.cli:main"
+
+[tool.setuptools]
+packages = ["agent_context_clinic"]
