@@ -3,6 +3,13 @@
 > **你的 AI 会话还有多久会失忆？**  
 > 零依赖的长会话上下文健康体检工具。
 
+```bash
+pip install agent-context-clinic          # 零依赖，Python 3.9+
+```
+
+<a href="https://gitcode.com/gcw_MKhSyoGN/agent-context-clinic"><img src="https://img.shields.io/badge/GitCode-gcw_MKhSyoGN%2Fagent-context-clinic-blue" alt="GitCode"></a>
+<a href="https://github.com/langarden/agent-context-clinic"><img src="https://img.shields.io/badge/GitHub-langarden%2Fagent-context-clinic-black" alt="GitHub"></a>
+
 `agent-context-clinic` 读取一段会话转录，告诉你**离上下文丢失还有多远**——窗口占用、最安全的可压缩区间、前缀缓存提示、以及可读的体检报告。它是 **Verifiable-agent 家族**成员。
 
 > ⚠️ **研究原型 — AI 辅助开发。** 这是一个开源研究/实验原型，由 AI 辅助产出。
@@ -32,10 +39,6 @@
 - 零依赖，纯 Python 3.9+ 标准库
 
 ## 安装
-
-```bash
-pip install agent-context-clinic
-```
 
 ## 快速开始
 

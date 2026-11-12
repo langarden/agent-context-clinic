@@ -3,6 +3,16 @@
 > **你的 AI 会话还有多久会失忆？**  
 > A zero-dependency context-window health check for long agent sessions.
 
+```bash
+pip install agent-context-clinic       # zero deps, Python 3.9+
+```
+
+<a href="https://gitcode.com/gcw_MKhSyoGN/agent-context-clinic"><img src="https://img.shields.io/badge/GitCode-gcw_MKhSyoGN%2Fagent-context-clinic-blue" alt="GitCode"></a>
+<a href="https://github.com/langarden/agent-context-clinic"><img src="https://img.shields.io/badge/GitHub-langarden%2Fagent-context-clinic-black" alt="GitHub"></a>
+<img src="https://img.shields.io/badge/tests-15%20passed-green" alt="tests">
+<img src="https://img.shields.io/badge/license-MIT-yellow" alt="license">
+<img src="https://img.shields.io/badge/python-3.9%2B-blue" alt="python">
+
 `agent-context-clinic` reads a session transcript and tells you **how close you are to losing the conversation** — window saturation, safest compressible span, prefix-cache hint, and a human-readable report. Part of the **Verifiable-agent family**.
 
 > ⚠️ **Research prototype — AI-assisted development.** This is an open-source
